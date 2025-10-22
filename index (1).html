@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sha Mechanical Engineer</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #111;
+      color: #fff;
+      scroll-behavior: smooth;
+    }
+
+    /* ---------- Cover Section ---------- */
+    .cover {
+      height: 100vh;
+      background: linear-gradient(120deg, #ffcc00 60%, #111 40%);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #111;
+    }
+
+    .cover h1 {
+      font-size: 3rem;
+      font-weight: 700;
+      letter-spacing: 2px;
+    }
+
+    .cover h2 {
+      font-size: 1.2rem;
+      font-weight: 400;
+      margin: 10px 0 30px;
+    }
+
+    .cover a {
+      text-decoration: none;
+      color: #111;
+      border: 2px solid #111;
+      padding: 10px 25px;
+      font-weight: 600;
+      border-radius: 5px;
+      transition: 0.3s;
+    }
+
+    .cover a:hover {
+      background-color: #111;
+      color: #ffcc00;
+    }
+
+    /* ---------- Profile Section ---------- */
+    .profile {
+      display: flex;
+      flex-wrap: wrap;
+      height: 100vh;
+      background-color: #f5f5f5;
+      color: #111;
+    }
+
+    .left-panel {
+      background-color: #ffcc00;
+      flex: 1;
+      min-width: 300px;
+      padding: 50px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+    }
+
+    .left-panel img {
+      width: 350px;
+      height: 500px;
+      border-radius: 50%;
+      border: 5px solid #111;
+      margin-bottom: 20px;
+    }
+
+    .left-panel h2 {
+      font-size: 1.6rem;
+      margin-bottom: 5px;
+    }
+
+    .left-panel p {
+      margin: 5px 0;
+      font-size: 0.9rem;
+    }
+
+    .right-panel {
+      flex: 2;
+      padding: 60px 50px;
+    }
+
+    .section-title {
+      font-size: 1.8rem;
+      font-weight: 600;
+      border-left: 6px solid #ffcc00;
+      padding-left: 12px;
+      margin-bottom: 25px;
+    }
+
+    .subsection {
+      margin-bottom: 35px;
+    }
+
+    .subsection h4 {
+      font-weight: 600;
+      margin-bottom: 10px;
+    }
+
+    .bar {
+      height: 8px;
+      background-color: #ddd;
+      border-radius: 5px;
+      overflow: hidden;
+      margin-bottom: 10px;
+    }
+
+    .bar-fill {
+      height: 100%;
+      background-color: #ffcc00;
+    }
+
+    /* ---------- Project Section ---------- */
+    .project {
+      background-color: #222;
+      color: white;
+      padding: 80px 10%;
+      text-align: left;
+    }
+
+    .project h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: #ffcc00;
+      margin-bottom: 20px;
+      text-transform: uppercase;
+    }
+
+    .project table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 25px;
+    }
+
+    .project th {
+      background-color: #ffcc00;
+      color: #111;
+      text-align: left;
+      padding: 10px;
+    }
+
+    .project td {
+      padding: 10px;
+      border-bottom: 1px solid #444;
+    }
+
+    .project img {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    /* ---------- Contact ---------- */
+    .contact {
+      background-color: #111;
+      text-align: center;
+      color: #FFCC00;
+      padding: 50px 20px;
+    }
+
+    .contact p {
+      margin: 8px 0;
+      font-size: 1rem;
+    }
+
+    footer {
+      background-color: #000;
+      color: #888;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 768px) {
+      .profile {
+        flex-direction: column;
+        height: auto;
+      }
+
+      .left-panel, .right-panel {
+        width: 100%;
+        padding: 40px 20px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Cover Section -->
+  <section class="cover" id="home">
+    <h1>PORTFOLIO</h1>
+    <h2>MECHANICAL ENGINEERING STUDENT</h2>
+    <p style="margin-bottom:30px;">Sha | Tuticorin | <a href="mailto:shaintern2025@gmail.com">shaintern2025@gmail.com</a></p>
+    <a href="#profile">Explore Profile ↓</a>
+  </section>
+
+  <!-- Profile Section -->
+  <section class="profile" id="profile">
+    <div class="left-panel">
+      <img src="/IMG_20250920_164655.png" alt="Profile Picture">
+      <h2>Sha</h2>
+      <p><strong>Email:</strong> shaintern2025@gmail.com</p>
+      <p><strong>Location:</strong> Tuticorin</p>
+      <hr style="width:50%; border:1px solid #111; margin:15px 0;">
+      <p><strong>Hobbies:</strong></p>
+      <p>Designing, Travelling, Photography</p>
+      <p style="margin-top:15px;"><strong>Technical Skill:</strong> Basic GD&T,2D Drafting,3D Drafting,</p>
+      <p style="margin-top:15px;"><strong>SoftSkill:</strong> Public Speaking, Communication, Problem Solving, Leadership.</p>
+    </div>
+
+    <div class="right-panel">
+      <div class="subsection">
+        <h3 class="section-title">Profile</h3>
+        <p>I’m Thushar Sha, a passionate Mechanical Engineering student with a keen interest in design, automation, and applied innovation. My work bridges traditional mechanical systems with modern technologies like AI-based posture detection, digital twins, and hydraulic automation.
+
+Driven by curiosity and hands-on learning, I’ve developed projects such as a Hydraulic Arm Wrestling Kit, Posture and Motion Monitoring System for Workplace Safety, and participated in internships at VOC Port Trust, where I explored marine and industrial systems.
+
+I’m constantly learning, experimenting, and building solutions that combine mechanical design, data-driven insights, and real-world problem solving — aiming to contribute to the next generation of smart and sustainable engineering solutions.</p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="section-title">Education</h3>
+        <h4>Bachelor of Engineering in Mechanical Engineering</h4>
+        <p>Dr Sivanthi Aditanar College Of Engineering, Tuticorin (2023 - 2027)</p>
+      </div>
+
+      <div class="subsection">
+        <h3 class="section-title">Software Skills</h3>
+        <p>Creo.</p>
+        <div class="bar"><div class="bar-fill" style="width:80%"></div></div>
+        <p>CATIA V5</p>
+        <div class="bar"><div class="bar-fill" style="width:85%"></div></div>
+        <p>Autodesk Invent</p>
+        <div class="bar"><div class="bar-fill" style="width:80%"></div></div>
+        <p>Autodesk Fusion</p>
+        <div class="bar"><div class="bar-fill" style="width:75%"></div></div>
+        <p>Simscale</p>
+        <div class="bar"><div class="bar-fill" style="width:70%"></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Project Section -->
+  <section class="project" id="project">
+    <h2>Hydraulic Arm Wrestling Kit</h2>
+    <table>
+      <tr><th>Description</th><th>Details</th></tr>
+      <tr><td>Type</td><td>Hydraulic </td></tr>
+      <tr><td>Material</td><td>Aluminium frame with metal cylinder lines</td></tr>
+      <tr><td>Working Principle</td><td>Pascal’s Law for pressure transmission</td></tr>
+      <tr><td>Design Tool</td><td>Inventor</td></tr>
+      <tr><td>Duration</td><td>3 weeks</td></tr>
+    </table>
+    <img src="/IMG_20251013_213626.jpg" alt="Hydraulic Arm Wrestling Kit">
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact" id="contact">
+    <h3>Get In Touch</h3>
+    <p>Email: <a href="mailto:shaintern2025@gmail.com" style="color:#fff;">shaintern2025@gmail.com</a></p>
+    <p>Location: Tuticorin</p>
+  </section>
+
+  <footer>
+    © 2025 Sha | Mechanical Engineer Portfolio
+  </footer>
+
+</body>
+</html>
